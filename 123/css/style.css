@@ -1,0 +1,245 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    background-color:#F6F6F6;
+}
+main{
+    width: 1280px;
+    margin: 0 auto;
+    background-color: white;
+}
+nav{
+    width: 100%;
+}
+/*100%/6=16.66666666%*/
+nav li{
+    width: 16.66666666%;
+    float: left;
+    background-color:#062C4F;
+    text-align: center;
+}
+
+nav li a{
+    display: block;
+    width: 100%;
+    color: white;
+    padding:18px 0;
+}
+nav li a:hover{
+    background-color:#7CC6D9;
+    cursor: pointer;
+}
+footer{
+    background-color: #062C4F;
+    width: 100%;
+    text-align: center;
+    color: white;
+    padding: 12px 0;
+}
+.banner{
+    width: 100%;
+}
+.banner img{
+    width: 100%;
+}
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;.
+    margin: 24px auto;
+}
+.title span{
+    margin: 0 20px;
+    font-size: 20px;
+}
+.title hr{
+    width: 220px;
+    height: 2px;
+    border: none;
+    background-color: black;
+}
+.info{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 8px;
+    border: 1px solid #ccc;
+    margin: 10px;
+}
+.info img{
+    width: 42%;
+    height: 360px;
+}
+
+.info .info-text{
+    width: 55%;
+}
+
+.info .info-text .info-title{
+    background-color:#062C4F;
+    padding: 8px 12px;
+    width: 120px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    margin-bottom: 12px;
+}
+.info .info-text .info-p{
+    font-size: 18px;
+    line-height: 35px;
+    text-indent: 2em;
+}
+
+.imglist{
+    width: 100%;
+    display: flex;
+    margin-top: 12px;
+    margin-bottom: 10px;
+}
+.imglist img{
+    width: 20%;
+}
+
+.roleContainer{
+    padding: 8px 12px;
+    width: 100%;
+}
+
+.roleContainer .roleItem{
+    display: flex;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+}
+
+.roleContainer .roleItem img{
+    width: 240px;
+    margin-right: 12px;
+}
+
+.roleContainer .roleItem .role-text{
+    padding: 8px;
+}
+
+.roleContainer .roleItem .role-text .role-title{
+    margin-bottom: 15px;
+    background-color:#062C4F;
+    width: 120px;
+    text-align: center;
+    padding: 8px 12px;
+    color: white;
+}
+
+.roleContainer .roleItem .role-text .role-p{
+    text-indent: 2em;
+    font-size: 18px;
+    line-height: 38px;
+}
+
+.photo{
+    width: 100%;
+    display: flex;
+    margin-top: 15px;
+    padding: 0 5px;
+    flex-wrap: wrap;
+}
+
+.photo img{
+    width: calc(33.33% - 8px);
+    margin: 4px;
+}
+
+
+
+.itemPage{
+    width: 100%;
+    display: flex;
+    margin-top: 15px;
+    padding: 10px 15px;
+    flex-wrap: wrap;
+}
+
+.itemPage img{
+    width: calc(25% - 20px);
+    margin: 10px;
+}
+
+.contact{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    padding: 0 18px;
+}
+
+.contact from{
+    width: 64%;
+}
+
+.contact img{
+    width: 33%;
+}
+
+.contact .input-group{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact .contact-title{
+    margin-bottom: 15px;
+    background-color: #062C4F;
+    width: 120px;
+    text-align: center;
+    padding: 8px 12px;
+    color: white;
+}
+
+.contact .input-group input{
+    margin-bottom: 12px;
+    height: 36px;
+    border: #706c6c 1px solid;
+    border-radius: 2px;
+    outline: none;
+}
+
+.contact button{
+    margin-bottom: 15px;
+    background-color:#062C4F;
+    width: 180px;
+    text-align: center;
+    color: white;
+    border-radius: 4px;
+    border: none;
+    padding: 8px 0;
+    font-size: 20px;
+}
+
+.contact button:hover{
+    background-color:#7CC6D9;
+    cursor: pointer;
+}
+
+.login{
+    display: flex;
+    justify-content:space-around;
+    margin-bottom: 20px;
+}
+
+.login img{
+    width: 45%;
+    height: 260px;
+    object-fit: cover;
+}
+
+.login form{
+    padding-top: 30px;
+    width: 52%;
+}
+
+.login .input-group{
+    display: flex;
+    flex-direction: column;
+}
